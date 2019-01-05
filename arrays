@@ -1,0 +1,33 @@
+//sumar los números
+
+var sum = 0;
+var numbers = [2, 3, 6, 1, 7, 10];
+
+for(var i = 0; i < numbers.length; i++){
+  sum = sum + numbers [i]
+}
+console.log(sum);
+
+//promedio de números
+
+var sum = 0;
+var numbers = [1, 7, 4, 11, 16, 10];
+
+for(var i = 0; i < numbers.length; i++){
+  sum = sum + numbers [i]
+}
+var average = sum/i
+console.log(average);
+
+//encuentra el número más grande
+
+var currentLargest = null;
+var numbers = [10, 16, 99, 0, 52, 41, 7];
+
+for(i = 0; i < numbers.length; i++){
+    if (numbers[i] > currentLargest)
+    {
+        currentLargest = numbers[i];
+    }
+}
+console.log("The largest number is: " + currentLargest) 
