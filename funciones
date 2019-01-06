@@ -23,18 +23,18 @@ var resultDiv = divideNumbers(10,5);
 console.log("The result is " + resultDiv);
 
 function calculator(numberOne, numberTwo, operation) {
-  if(operation == sum){
+  if(operation === "sum"){
     return numberOne + numberTwo;
   }
-  else if(operation == subs){
+  else if(operation === "subs"){
     return numberOne - numberTwo;
   }
-  else if(operation == multiply){
+  else if(operation === "multiply"){
     return numberOne * numberTwo;
   }
-  else if(operation == div){
+  else if(operation === "div"){
     return numberOne / numberTwo;
   }
 }
-var resultCalculator = calculator(10,5,multiply);
-console.log("The result is" + resultCalculator);
+var resultCalculator = calculator(10,5,"sum");
+console.log("The result is " + resultCalculator);
